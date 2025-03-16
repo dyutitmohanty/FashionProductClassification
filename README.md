@@ -1,3 +1,15 @@
+## Instructions for making predictions:
+
+### Making predictions on Streamlit:
+
+Model deployed for predictions at: https://fashionappuctclassificationgit-pjom4ug42fz4bgneyj93vm.streamlit.app/
+
+### Making predictions using API:
+
+After cloning the repo, run: `python -m uvicorn fashion_api:app --reload`, and visit http://127.0.0.1:8000/docs in your browser.
+
+---
+
 ## Instructions for Running
 
 ### Running on Kaggle
