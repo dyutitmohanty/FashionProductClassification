@@ -28,7 +28,7 @@ The following paths in the `FashionProduct_Classification.ipynb` file must be ch
 
 - `checkpoint_path = "/kaggle/working/checkpt_model.pth"`  
   `checkpoint_load_path = "/kaggle/working/checkpt_model.pth"`  
-  Update these 2 paths with the location of the checkpoint file on your device. The checkpoint file can be downloaded from: https://www.kaggle.com/models/dyutitmohanty/fashionproductclassifier_checkpointfile
+  Update these 2 paths with the location of the checkpoint file on your device.
 
 - `prediction_imgs_folder = '/kaggle/input/pred-imgs-amazon/prediction_imgs'`  
   Update this path to location of the folder containing the images you want to perform inference on.
