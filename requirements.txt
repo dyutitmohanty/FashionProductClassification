@@ -2,3 +2,6 @@ streamlit
 torch
 torchvision
 pillow
+fastapi
+uvicorn
+python-multipart
