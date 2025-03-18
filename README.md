@@ -47,3 +47,8 @@ The following paths in the `FashionProduct_Classification.ipynb` file must be ch
 
 - `intermediate_folder = "/kaggle/working/intermediate"`  
   While performing inference, intermediate images are produced. Set this path to any location that is convenient for storing these intermediate images.
+
+---
+## Potential changes for improved model performance:
+1) Add lateral flips to transforms as product images could be pointing either left or right.
+2) Freezing model weights up to a certain depth in the backbone could help reduce overfitting.
